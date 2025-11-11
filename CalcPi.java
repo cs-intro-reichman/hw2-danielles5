@@ -22,10 +22,8 @@ public class CalcPi {
 			}
 		}
 
-		// Prints actual pi (approx. according to Java)
-		System.out.println("pi according to Java: " + Math.PI);
+		// Prints actual pi (approx. according to Java) vs. pi approx. (according to Gregory and Leibnitz and amount of terms given)
+		System.out.println("pi according to Java: " + Math.PI + "\n" + "pi, approximated:     " + (4 * piApprox));
 
-		// Prints pi approx. (according to Gregory and Leibnitz and the amount of terms asked to check)
-		System.out.println("pi, approximated:	 " + (4 * piApprox));
 	}
 }
