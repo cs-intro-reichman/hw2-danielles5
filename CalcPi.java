@@ -7,7 +7,7 @@ public class CalcPi {
 		double oddCount = 3;
 		
 		// Calculation of approx. pi / 4 (depending on amount of terms asked to check)
-		// 1 is the first term, then it turns into either +/- 1/odd
+		// 1 is the first term, then it turns into either +/- (1/odd)
 		for (int i = 0; i < terms - 1; i++) {
 			if (i % 2 == 0) {
 
@@ -22,8 +22,9 @@ public class CalcPi {
 			}
 		}
 
-		// Prints actual pi (approx. according to Java) vs. pi approx. (according to Gregory and Leibnitz and amount of terms given)
-		System.out.println("pi according to Java: " + Math.PI + "\n" + "pi, approximated:     " + (4 * piApprox));
+		// Prints actual pi (approx. according to Java) vs. pi approx. (according to Gregory and Leibnitz)
+		System.out.println("pi according to Java: " + Math.PI + "\n" + 
+							"pi, approximated:     " + (4 * piApprox));
 
 	}
 }

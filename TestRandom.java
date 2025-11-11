@@ -24,12 +24,12 @@ public  class  TestRandom {
 		} else {
 
 			if (greaterCounter > lowerCounter) {
+
 				double ratio = lowerCounter / greaterCounter;
 				
 				System.out.println("> 0.5: " + (int)greaterCounter + " times\n" +
 									"<= 0.5: " + (int)lowerCounter + " times\n" +
 									"Ratio: " + ratio);
-
 			} else {
 
 				double ratio = greaterCounter / lowerCounter;
